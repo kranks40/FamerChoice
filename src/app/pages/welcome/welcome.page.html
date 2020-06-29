@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Welcome</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+ <ion-content fullscreen class="ion-padding bg-img" scroll-y="false">
+
+  <ion-slides>
+
+    <ion-slide>
+      <div class="slide">
+        <img src="./assets/images/men.jpg"/>
+        <h2>Welcome</h2>
+        <p>The <b>ionic conference app</b> is a practical preview of the ionic framework in action, and a demonstration of proper code use.</p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="./assets/images/woman.jpg"/>
+      <h2>What is Ionic?</h2>
+      <p><b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies like HTML, CSS, and JavaScript.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="./assets/images/women.jpg"/>
+      <h2>What is Ionic Appflow?</h2>
+      <p><b>Ionic Appflow</b> is a powerful set of services and features built on top of Ionic Framework that brings a totally new level of app development agility to mobile dev teams.</p>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-button expand="block" shape="round" color='primary' 
+    (click)="navigateToHomePage()" >Start</ion-button>
+
+</ion-content>

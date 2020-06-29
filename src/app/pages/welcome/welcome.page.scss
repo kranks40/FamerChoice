@@ -1,0 +1,61 @@
+ion-content{
+
+ion-slides {
+    height: 91%;
+  }
+
+  .swiper-slide {
+    display: block;
+    background: linear-gradient(to bottom, #904779 20%, #fff 100%);
+    //background-image: url("/assets/images/woman_1.jpg");
+    //background-repeat: no-repeat;
+   // background-position: center;
+   // background-size: contain;
+    
+  }
+
+  .swiper-slide h2 {
+    margin-top: auto;
+  }
+
+  .swiper-slide img {
+   
+    max-height: 100%;
+    max-width: 100%;
+    margin: 60px 0 10px;
+    pointer-events: none;
+  }
+
+  b {
+    font-weight: 500;
+  }
+
+  p {
+    padding: 0 40px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--ion-color-step-600, #60646b);
+  }
+
+  p b {
+    color: var(--ion-text-color, #000000);
+  }
+}
+ 
+     
+
+
+ 
+ 
+
+   
+
+
+ 
+
+
+  
+
+ 
+
+  
